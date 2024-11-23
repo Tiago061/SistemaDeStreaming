@@ -16,7 +16,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -105,15 +105,15 @@
         android:layout_height="42dp"
         android:layout_marginStart="32dp"
         android:background="@drawable/caixatextoroxo"
+        android:drawableStart="@drawable/baseline_lock"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
         android:ems="10"
+        android:hint="Senha"
         android:inputType="text"
         android:textColor="#F6F6F6"
-        android:hint="Senha"
-        android:textSize="12dp"
         android:textColorHint="#948F8F"
-        android:drawablePadding="10dp"
-        android:drawableStart="@drawable/baseline_lock"
-        android:drawableTint="@color/white"
+        android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -132,21 +132,22 @@
         app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
-        app:layout_constraintVertical_bias="0.252" />
+        app:layout_constraintVertical_bias="0.229" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="80dp"
         android:text="Esqueceu sua senha ?"
         android:textColor="#F6F6F6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintHorizontal_bias="0.263"
         app:layout_constraintStart_toEndOf="@+id/switch2"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
         android:layout_width="299dp"
         android:layout_height="46dp"
         android:layout_marginTop="148dp"
@@ -155,9 +156,11 @@
         android:textColor="#000000"
         android:textSize="18dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
