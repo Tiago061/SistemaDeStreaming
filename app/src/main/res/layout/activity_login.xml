@@ -16,7 +16,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -84,7 +84,8 @@
         android:layout_marginStart="32dp"
         android:background="@drawable/caixatextoroxo"
         android:drawableStart="@drawable/baseline_email"
-        android:drawablePadding="10dp"
+        android:drawablePadding="12dp"
+        android:padding="10dp"
         android:drawableTint="@color/white"
         android:ems="10"
         android:hint="Endereço de Email"
@@ -99,27 +100,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.455" />
 
-    <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/editTextSenha"
-        android:layout_width="312dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="32dp"
-        android:background="@drawable/caixatextoroxo"
-        android:drawableStart="@drawable/baseline_lock"
-        android:drawablePadding="10dp"
-        android:drawableTint="@color/white"
-        android:ems="10"
-        android:hint="Senha"
-        android:inputType="text"
-        android:textColor="#F6F6F6"
-        android:textColorHint="#948F8F"
-        android:textSize="12dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.564" />
 
     <Switch
         android:id="@+id/btnLembrar"
@@ -161,5 +141,28 @@
         app:layout_constraintHorizontal_bias="0.732"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="312dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/caixatextoroxo"
+        android:ems="10"
+        android:drawableStart="@drawable/baseline_email"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#948F8F"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
