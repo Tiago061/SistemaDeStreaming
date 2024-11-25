@@ -19,7 +19,7 @@
             android:name=".Activity_cadastro"
             android:exported="false" />
         <activity
-            android:name=".tela_login"
+            android:name=".Activity_Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

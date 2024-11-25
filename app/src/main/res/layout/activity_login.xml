@@ -7,10 +7,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/btn_fundo_branco"
     android:backgroundTint="@color/design_default_color_background"
-    tools:context=".tela_login">
+    tools:context=".Activity_Login">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
@@ -122,7 +122,7 @@
         app:layout_constraintVertical_bias="0.564" />
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/btnLembrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lembrar de mim"
@@ -132,10 +132,10 @@
         app:layout_constraintHorizontal_bias="0.777"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintVertical_bias="0.333" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/btnAcessar"
         android:layout_width="299dp"
         android:layout_height="46dp"
         android:layout_marginTop="148dp"
@@ -144,17 +144,17 @@
         android:textColor="#000000"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
         app:layout_constraintVertical_bias="0.127" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textViewEsqueceuSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="200dp"
         android:text="Esqueceu sua senha?"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"

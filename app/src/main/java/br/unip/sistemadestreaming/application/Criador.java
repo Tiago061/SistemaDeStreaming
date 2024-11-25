@@ -9,7 +9,7 @@ public class Criador {
     private String nome;
     private List<Conteudo> conteudos;
 
-    public Criador(int id, String nome, List<Conteudo> conteudo) {
+    public Criador(int id, String nome) {
         this.id = id;
         this.nome = nome;
         this.conteudos = new ArrayList<>();

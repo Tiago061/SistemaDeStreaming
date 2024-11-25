@@ -10,7 +10,7 @@ public class Usuario {
     private String email;
     private List<Playlist> playlists;
 
-    public Usuario(int id, String nome, String email, List<Playlist> playlists) {
+    public Usuario(int id, String nome, String email) {
         this.id = id;
         this.nome = nome;
         this.email = email;

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SistemaDeStreaming</string>
+    <string name="Entrar">btnEntrar</string>
+    <string name="btnEntrar">btnEntrar</string>
 </resources>

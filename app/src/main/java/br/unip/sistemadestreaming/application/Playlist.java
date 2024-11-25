@@ -9,7 +9,7 @@ public class Playlist {
     private Usuario usuario;
     private List<Conteudo> conteudos;
 
-    public Playlist(Integer id, String nome, Usuario usuario, List<Conteudo> conteudos) {
+    public Playlist(Integer id, String nome, Usuario usuario) {
         this.id = id;
         this.nome = nome;
         this.usuario = usuario;
